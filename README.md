@@ -67,18 +67,18 @@ count_apples(array)
 
 3. What is the maximum number of steps it would take to perform a binary search on an array of size 100,000?
 
-   It would take 19 steps to search an array of size 100,000.
+   It would take 17 steps to search an array of size 100,000.
 
    | Array Length  | Binary Search Steps  |
    |---|---|
-   | 100 | 8 |
-   | 200 | 9 |
-   | 400 | 10 |
-   | 800 | 11 |
-   | 1600 | 12 |
-   | 3200 | 13 |
-   | 6400 | 14 |
-   | 12800 | 15 |
-   | 25600 | 17 |
-   | 51200 | 18 |
-   | 102400 | 19 |
+   | 100 | 7 |
+   | 200 | 8 |
+   | 400 | 9 |
+   | 800 | 10 |
+   | 1600 | 11 |
+   | 3200 | 12 |
+   | 6400 | 13 |
+   | 12800 | 14 |
+   | 25600 | 15 |
+   | 51200 | 16 |
+   | 102400 | 17 |

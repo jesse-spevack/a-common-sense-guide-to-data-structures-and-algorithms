@@ -54,3 +54,31 @@ array = ['apples', 'not apples', 'apples', 'not apples', 'apples']
 count_apples(array)
 => 3
 ```
+
+## Chapter 2: Why Algorithms Matter
+### Exercises
+1. How many steps would it take to perform a linear search for the number 8 in the ordered array, `[2, 4, 6, 8, 10, 12, 13]`?
+
+    It would take 4 steps. Linear search must inspect each element in the array until it stopping at the number 8.
+
+2. How many steps would binary search take for the previous example?
+
+    It would take 1 step. The first step in a binary search would be to inspect the middle element, `8`, which is the value we are searching for.
+
+3. What is the maximum number of steps it would take to perform a binary search on an array of size 100,000?
+
+   It would take 19 steps to search an array of size 100,000.
+
+   | Array Length  | Binary Search Steps  |
+   |---|---|
+   | 100 | 8 |
+   | 200 | 9 |
+   | 400 | 10 |
+   | 800 | 11 |
+   | 1600 | 12 |
+   | 3200 | 13 |
+   | 6400 | 14 |
+   | 12800 | 15 |
+   | 25600 | 17 |
+   | 51200 | 18 |
+   | 102400 | 19 |
